@@ -1,0 +1,27 @@
+header {
+    padding: var(--page-padding-height) var(--page-padding-width) 0 var(--page-padding-width);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: var(--underline-padding);
+    border-bottom: var(--line-width-thin) solid var(--color-primary);
+}
+
+.logo-header {
+    height: 2em;
+}
+
+.nav-links {
+    display: flex;
+    padding-bottom: var(--underline-padding);
+}
+
+.nav-link a {
+    margin-left: 6em;
+    text-decoration: none;
+
+    color: var(--color-primary);
+}
