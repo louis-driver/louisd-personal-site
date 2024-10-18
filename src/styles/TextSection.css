@@ -1,0 +1,29 @@
+
+.text-section {
+    margin: var(--section-margin-vertical) var(--page-padding-width);
+    width: var(--process-section-width);
+}
+
+.text-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: var(--underline-padding);
+    border-bottom: var(--line-width-thin) solid var(--color-primary);
+}
+
+.text-header h2 {
+    font-size: var(--font-size-large);
+    font-weight: 600;
+}
+
+.text-header h3 {
+    font-size: var(--font-size-medium);
+    font-weight: 200;
+}
+
+.text-section p {
+    margin: var(--paragraph-margin-vertical) 0;
+    text-align: justify;
+    line-height: 1.35em;
+}
