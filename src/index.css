@@ -51,7 +51,7 @@ table {
 /* - - - - END Styles Reset - - - - */
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Fustat", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 18px;
@@ -68,17 +68,19 @@ table {
   
   --color-primary: #ffffff;
 
-  --font-size-huge: 6rem;
-  --font-size-large: 3rem;
-  --font-size-medium: 1.5rem;
+  --font-size-huge: 3.5rem;
+  --font-size-large: 2rem;
+  --font-size-medium: 1.1rem;
 
   --section-margin-vertical: 4em;
+  --heading-margin-vertical: 1em;
   --paragraph-margin-vertical: 0.5em;
   --page-padding-width: clamp(2rem, 4vw, 10rem);
   --page-padding-height: clamp(1rem, 2dvw, 3rem);
   --heading-padding: clamp(2em, 15dvw, 10em);
-  --section-width: clamp(300px, 35dvw, 600px);
-  --underline-padding: 0.25em;
+  --section-width: clamp(300px, 80dvw, 500px);
+  --process-section-width: clamp(300px, 80dvw, 650px);
+  --underline-padding: 0.25rem;
   --line-width-thin: 1.5px;
   --line-width-thick: 3px;
 }

@@ -22,6 +22,7 @@ footer {
 
 .footer-content h1 {
     margin-bottom: 1em;
+    padding-top: var(--underline-padding);
 }
 
 @media (max-width: 750px) {

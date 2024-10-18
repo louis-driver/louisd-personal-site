@@ -1,7 +1,7 @@
 .section-heading {
-    margin: 0 var(--page-padding-width) 0 auto; /* margin-left auto left aligns, while margin-right will set it away from the edge by the "page padding" */
+    margin: var(--heading-margin-vertical) var(--page-padding-width) 0 auto; /* margin-left auto left aligns, while margin-right will set it away from the edge by the "page padding" */
     width: fit-content;
     padding: 0 0 var(--underline-padding) var(--heading-padding);
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-huge);
     border-bottom: var(--line-width-thin) solid var(--color-primary);
 }

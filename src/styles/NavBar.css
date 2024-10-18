@@ -6,7 +6,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: end;
-    padding-bottom: var(--underline-padding);
     border-bottom: var(--line-width-thin) solid var(--color-primary);
 }
 
@@ -16,7 +15,7 @@ nav {
 
 .nav-links {
     display: flex;
-    padding-bottom: var(--underline-padding);
+    padding-bottom: 0.1em;
 }
 
 .nav-link a {
