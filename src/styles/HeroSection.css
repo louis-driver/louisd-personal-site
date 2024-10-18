@@ -1,0 +1,26 @@
+
+.hero-section {
+    margin: var(--section-margin-vertical) var(--page-padding-width);
+    width: var(--section-width);
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-bottom: var(--underline-padding);
+    border-bottom: var(--line-width-thin) solid var(--color-primary);
+}
+
+.hero-header h1 {
+    font-size: var(--font-size-large);
+}
+
+.hero-header h2 {
+    font-size: var(--font-size-medium);
+}
+
+.hero-section p {
+    margin: var(--paragraph-margin-vertical) 0;
+    text-align: justify;
+}
