@@ -5,7 +5,7 @@ import "../styles/NavBar.css"
 
 function Navbar() {
     return (
-        <header>
+        <header className="page-header">
 
         { /* Desktop Navbar */ }
         <nav>

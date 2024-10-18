@@ -1,4 +1,4 @@
-header {
+.page-header {
     padding: var(--page-padding-height) var(--page-padding-width) 0 var(--page-padding-width);
 }
 

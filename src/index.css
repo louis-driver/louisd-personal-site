@@ -54,6 +54,7 @@ table {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 18px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -64,13 +65,22 @@ table {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-primary: #000000;
+  
+  --color-primary: #ffffff;
 
-  --page-padding-width: clamp(2em, 4vw, 10em);
-  --page-padding-height: clamp(1em, 2dvw, 3em);
+  --font-size-huge: 6rem;
+  --font-size-large: 3rem;
+  --font-size-medium: 1.5rem;
+
+  --section-margin-vertical: 4em;
+  --paragraph-margin-vertical: 0.5em;
+  --page-padding-width: clamp(2rem, 4vw, 10rem);
+  --page-padding-height: clamp(1rem, 2dvw, 3rem);
+  --heading-padding: clamp(2em, 15dvw, 10em);
+  --section-width: clamp(300px, 35dvw, 600px);
   --underline-padding: 0.25em;
   --line-width-thin: 1.5px;
-  --line-width-thick: 4px;
+  --line-width-thick: 3px;
 }
 
 
@@ -78,6 +88,7 @@ table {
   :root {
     color: #213547;
     background-color: #ffffff;
+    --color-primary: #000000;
   }
   a:hover {
     color: #747bff;
