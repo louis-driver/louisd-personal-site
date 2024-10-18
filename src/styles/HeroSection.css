@@ -12,15 +12,20 @@
     border-bottom: var(--line-width-thin) solid var(--color-primary);
 }
 
-.hero-header h1 {
+.hero-header h2 {
     font-size: var(--font-size-large);
+    font-weight: 600;
+    width: fit-content;
 }
 
-.hero-header h2 {
+.hero-header h3 {
     font-size: var(--font-size-medium);
+    font-weight: 200;
+    width: fit-content;
 }
 
 .hero-section p {
     margin: var(--paragraph-margin-vertical) 0;
     text-align: justify;
+    line-height: 1.35em;
 }
