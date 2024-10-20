@@ -8,7 +8,11 @@
   },
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "npm install --omit=dev && tsc -b && vite build",
+=======
+    "build": "npm install --production=false && tsc -b && vite build",
+>>>>>>> 434c3b1bbc6a00ceb0990cc9a6d604401f060e74
     "lint": "eslint .",
     "preview": "vite preview",
     "build:digitalocean": "npm install --production=false && tsc -b && vite build"
