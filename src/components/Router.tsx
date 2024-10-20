@@ -3,6 +3,7 @@ import App from "../pages/App";
 import About from "../pages/About";
 import Smithsonian from "../pages/Smithsonian";
 import LouisD from "../pages/LouisD";
+import MobileRouting from "../pages/MobileRouting.jsx";
 
 function Router() {
 
@@ -10,6 +11,7 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App />} />
+                <Route path="/mobileRouting" element={<MobileRouting />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/smithsonian" element={<Smithsonian />} />
                 <Route path="/louisd" element={<LouisD />} />
