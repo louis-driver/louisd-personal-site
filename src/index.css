@@ -56,6 +56,8 @@ table {
   font-weight: 400;
   font-size: 18px;
 
+  box-sizing: border-box;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -68,8 +70,8 @@ table {
   
   --color-primary: #ffffff;
 
-  --font-size-huge: 3.5rem;
-  --font-size-large: 2rem;
+  --font-size-huge: clamp(1.5rem, 6vw, 3.5rem);
+  --font-size-large: clamp(1.4rem, 6vw, 2rem);
   --font-size-medium: 1.1rem;
 
   --section-margin-vertical: 4em;

@@ -1,5 +1,5 @@
 .section-heading {
-    margin: var(--heading-margin-vertical) var(--page-padding-width) 0 auto; /* margin-left auto left aligns, while margin-right will set it away from the edge by the "page padding" */
+    margin: var(--section-margin-vertical) var(--page-padding-width) var(--heading-margin-vertical) auto; /* margin-left auto left aligns, while margin-right will set it away from the edge by the "page padding" */
     width: fit-content;
     padding: 0 0 var(--underline-padding) var(--heading-padding);
     font-size: var(--font-size-huge);

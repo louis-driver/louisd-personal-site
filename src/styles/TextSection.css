@@ -1,6 +1,6 @@
 
 .text-section {
-    margin: var(--section-margin-vertical) var(--page-padding-width);
+    margin: 0 var(--page-padding-width) var(--section-margin-vertical);
     width: var(--process-section-width);
 }
 
@@ -26,4 +26,20 @@
     margin: var(--paragraph-margin-vertical) 0;
     text-align: justify;
     line-height: 1.35em;
+}
+
+@media (max-width: 750px) {
+    .text-header {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .text-header h2 {
+        padding-bottom: var(--underline-padding);
+    }
+
+    .text-header h3 {
+        padding-top: var(--underline-padding);
+        border-top: var(--line-width-thin) solid var(--color-primary);
+    }
 }

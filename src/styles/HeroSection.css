@@ -1,6 +1,6 @@
 
 .hero-section {
-    margin: var(--section-margin-vertical) var(--page-padding-width);
+    margin: var(--section-margin-vertical) var(--page-padding-width) calc(2*var(--section-margin-vertical));
     width: var(--section-width);
 }
 
@@ -28,4 +28,27 @@
     margin: var(--paragraph-margin-vertical) 0;
     text-align: justify;
     line-height: 1.35em;
+}
+
+.hero-section a {
+    float: right;
+    text-decoration: none;
+    padding: 0 0 var(--underline-padding) 4em;
+    border-bottom: var(--line-width-thin) solid var(--color-primary);
+}
+
+.hero-section a:visited {
+    color: var(--color-primary);
+}
+
+@media (max-width: 750px) {
+    .hero-header {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .hero-header h3 {
+        padding: var(--underline-padding) 0;
+        border-top: var(--line-width-thin) solid var(--color-primary);
+    }
 }
