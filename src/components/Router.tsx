@@ -3,7 +3,7 @@ import App from "../pages/App";
 import About from "../pages/About";
 import Smithsonian from "../pages/Smithsonian";
 import LouisD from "../pages/LouisD";
-import MobileRouting from "../pages/MobileRouting.jsx";
+import MobileRouting from "../pages/MobileRouting";
 
 function Router() {
 

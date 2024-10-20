@@ -8,10 +8,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm install && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build:digitalocean": "npm install --production=false && npm run build && npm ci"
+    "build:digitalocean": "npm install --production=false && tsc -b && vite build"
   },
   "dependencies": {
     "@tsconfig/recommended": "^1.0.7",
