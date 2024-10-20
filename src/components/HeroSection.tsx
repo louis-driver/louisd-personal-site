@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "../styles/HeroSection.css";
 
 {/* Define prop types for typescript */}
@@ -12,13 +11,6 @@ interface HeroSectionProps {
 interface Paragraph {
     id: number;
     paragraph: string;
-}
-
-interface Link {
-    hasLink: boolean;
-    linkText: string;
-    linkRoute: string;
-    target: string;
 }
 
 function HeroSection({ h3, h2, paragraphs, children }: HeroSectionProps) {
