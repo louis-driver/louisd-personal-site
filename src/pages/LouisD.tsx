@@ -10,14 +10,14 @@ function LouisD() {
         h2: "This Website",
         paragraphs: [{id: 0, paragraph: "Heyo! It's Louis. Yes, I designed and developed this website by myself. Yes, I know it's so very super stinkin' awesome. Also yes, you should totally reach out to me!"},
           {id: 1, paragraph: "Pretty cool right?"}],
-        link: null
+        children: null
     }
 
     const purposeProps = {
         h2: "Purpose",
         h3: "A project of self-expression",
         paragraphs: [{id: 0, paragraph: "As I aspire to be a full stack web developer, I couldn't even begin to call myself one without a portfolio website! So yeah, that's one of the main reasons for creating this website."},
-            {id: 1, paragraph: "Aside from displaying my capabilities in a concrete fashion that is viewable by everyone."},
+            {id: 1, paragraph: "Besides displaying my capabilities in a concrete fashion that is visible to everyone."},
             {id: 2, paragraph: "Oh, and as a method to gain more web development experience."},
             {id: 3, paragraph: "And for the fun of making you read this."}
         ]
@@ -34,8 +34,8 @@ function LouisD() {
     const developmentProps = {
         h2: "Development",
         h3: "Simple and modern",
-        paragraphs: [{id: 0, paragraph: "With React's prevalence in the industry, as well as it being taught in my courses, I opted to use it as my front-end framework."},
-            {id: 1, paragraph: "React\'s modular development also let\'s me quickly construct new process pages for any new projects I create. You know, after I had built those components at least."}
+        paragraphs: [{id: 0, paragraph: "With React's prevalence in the industry, as well as it being taught in my courses, I opted to use it as my front-end framework. React\'s modular development also let\'s me quickly construct new process pages for any new projects I create. You know, after I had built those components at least."},
+            {id: 1, paragraph: "To deploy the website, I've used a DigitalOcean droplet because of their ease of use for web developers and the low start-up cost. An extra plus is the continuous integration and delivery through its link to my github repository. Plus, it should let me host multiple low-traffic sites on one droplet."}
         ]
     }
 
