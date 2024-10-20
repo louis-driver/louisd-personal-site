@@ -1,6 +1,7 @@
 import {Link} from "react-router-dom";
 import "../styles/NavBar.css"
 import { useEffect, useState } from "react";
+import Logo from "./Logo";
 
 /* Source for swapping between mobile and desktop:  https://stackoverflow.com/questions/74169381/how-to-check-if-react-app-is-being-viewed-on-desktop-or-mobile?noredirect=1&lq=1 */
 
@@ -35,7 +36,7 @@ function Navbar() {
             { /* Desktop Navbar */ }
             { !isMobile &&
                 <nav>
-                    <Link to={"/"}><img className="logo-header" src="/LouisD-Logo.svg"></img></Link>
+                    <Link to={"/"}><Logo /></Link>
                     <ul className="nav-links">
                         <li className="nav-link"><Link to={"/"}>Home</Link></li>
                         <li className="nav-link"><Link to={"/smithsonian"}>Smithsonian</Link></li>
@@ -47,7 +48,7 @@ function Navbar() {
             { /* Mobile Navbar */}
             { isMobile &&
                 <nav>
-                    <Link to={"/mobileRouting"}><img className="logo-header" src="/LouisD-Logo.svg"></img></Link>
+                    <Link to={"/mobileRouting"}><Logo /></Link>
                 </nav>
             }
 

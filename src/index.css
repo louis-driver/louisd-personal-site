@@ -77,11 +77,11 @@ table {
   --section-margin-vertical: 4em;
   --heading-margin-vertical: 1em;
   --paragraph-margin-vertical: 0.5em;
-  --page-padding-width: clamp(2rem, 4vw, 10rem);
+  --page-padding-width: clamp(1rem, 4vw, 10rem);
   --page-padding-height: clamp(1rem, 2dvw, 3rem);
-  --heading-padding: clamp(2em, 15dvw, 10em);
-  --section-width: clamp(300px, 80dvw, 500px);
-  --process-section-width: clamp(300px, 80dvw, 650px);
+  --heading-padding: clamp(1em, 15dvw, 10em);
+  --section-width: clamp(300px, 80vw, 500px);
+  --process-section-width: clamp(300px, 80vw, 650px);
   --underline-padding: 0.25rem;
   --line-width-thin: 1.5px;
   --line-width-thick: 3px;
