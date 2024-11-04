@@ -8,8 +8,8 @@ function LouisD() {
     const heroProps = {
         h3: "A project of self-expression",
         h2: "This Website",
-        paragraphs: [{id: 0, paragraph: "Heyo! It's Louis. Yes, I designed and developed this website by myself. Yes, I know it's so very super stinkin' awesome. Also yes, you should totally reach out to me!"},
-          {id: 1, paragraph: "Pretty cool right?"}],
+        paragraphs: [{id: 0, paragraph: "Hi, it's Louis. I designed and developed this website. It's a work in progress, but I wanted to something out that was at least visible to people."},
+          {id: 1, paragraph: "I plan to add images to help illustrate my process and link more projects."}],
         children: null
     }
 
