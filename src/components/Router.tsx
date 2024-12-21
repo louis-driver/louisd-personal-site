@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Smithsonian from "../pages/Smithsonian";
 import LouisD from "../pages/LouisD";
 import MobileRouting from "../pages/MobileRouting";
+import WonderButton from "../pages/WonderButton";
 
 function Router() {
 
@@ -14,6 +15,7 @@ function Router() {
                 <Route path="/mobileRouting" element={<MobileRouting />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/smithsonian" element={<Smithsonian />} />
+                <Route path="/wonderbutton" element={<WonderButton />} />,
                 <Route path="/louisd" element={<LouisD />} />
             </Routes>
         </BrowserRouter>

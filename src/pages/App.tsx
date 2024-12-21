@@ -23,6 +23,14 @@ function App() {
     children: <Link to="/smithsonian">Check it out!</Link>
   }
 
+    const wonderButtonProps = {
+    h3: "An impish endeavor",
+    h2: "WonderButton", 
+    paragraphs: [{id: 0, paragraph: "An experience more so than a website. The button let's you know what it thinks, you just get to be along for the ride."},
+      ],
+    children: <Link to="/wonderbutton">Click the Button</Link>
+  }
+
   const thisWebsiteProps = {
     h3: "A project of self-expression",
     h2: "This Website",
@@ -37,6 +45,7 @@ function App() {
       <HeroSection {...heroProps} />
       <Heading heading="Projects" />
       <HeroSection {...smithsonianProps} />
+      <HeroSection {...wonderButtonProps} />
       <HeroSection {...thisWebsiteProps} />
       <Footer />
     </>
