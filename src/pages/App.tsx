@@ -15,15 +15,7 @@ function App() {
     children: null
   }
 
-  const smithsonianProps = {
-    h3: "An exploration of typography",
-    h2: "Smithsonian",
-    paragraphs: [{id: 0, paragraph: "This project served to study typography’s importance in web design along with its capabilities for creating an interesting design without reliance on imagery."},
-      ],
-    children: <Link to="/smithsonian">Check it out!</Link>
-  }
-
-    const wonderButtonProps = {
+  const wonderButtonProps = {
     h3: "An impish endeavor",
     h2: "WonderButton", 
     paragraphs: [{id: 0, paragraph: "An experience more so than a website. The button let's you know what it thinks, you just get to be along for the ride."},
@@ -41,10 +33,21 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar />  
       <HeroSection {...heroProps} />
       <Heading heading="Projects" />
-      <HeroSection {...smithsonianProps} />
+      <section className="smithsonian">
+        <img className='top-transition' src="/src/assets/TopTransition.svg" alt="Pixelated Transition" />
+        <div className="smithsonian-content">
+          <div className="smithsonian-header">
+            <h2>Smithsonian</h2>
+            <h3>An exploration of typography</h3>
+          </div>
+          <p>This project served to study typography’s importance in web design along with its capabilities for creating an interesting design without reliance on imagery.</p>
+          <Link to="/smithsonian" className="smithsonian-link">Check it Out!</Link>
+        </div>
+        <img className='bottom-transition' src="/src/assets/BottomTransition.svg" alt="Pixelated Transition" />
+      </section>
       <HeroSection {...wonderButtonProps} />
       <HeroSection {...thisWebsiteProps} />
       <Footer />
