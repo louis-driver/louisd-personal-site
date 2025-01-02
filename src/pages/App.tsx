@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Heading from '../components/Heading'
 import { Link } from 'react-router-dom'
+import ProjectSection from '../components/ProjectSection'
 
 function App() {
 
@@ -36,8 +37,8 @@ function App() {
       <Navbar />  
       <HeroSection {...heroProps} />
       <Heading heading="Projects" />
-      <section className="smithsonian">
-        <img className='top-transition' src="/src/assets/TopTransition.svg" alt="Pixelated Transition" />
+
+      <ProjectSection className="smithsonian">
         <div className="smithsonian-content">
           <div className="smithsonian-header">
             <h2>Smithsonian</h2>
@@ -46,9 +47,20 @@ function App() {
           <p>This project served to study typography’s importance in web design along with its capabilities for creating an interesting design without reliance on imagery.</p>
           <Link to="/smithsonian" className="smithsonian-link">Check it Out!</Link>
         </div>
-        <img className='bottom-transition' src="/src/assets/BottomTransition.svg" alt="Pixelated Transition" />
-      </section>
-      <HeroSection {...wonderButtonProps} />
+      </ProjectSection>
+
+      <ProjectSection className="wonderbutton">
+        <div id="marqueeDiv">
+          <div className="marquee enable-animation">
+            <span className="marquee-content">CLICK THE BUTTON</span>
+            <span className="marquee-content" aria-hidden="true">CLICK THE BUTTON</span>
+          </div>
+        </div>
+        <div id="buttonOverlay">
+            <Link to="/wonderbutton" id="wonderBtn">WonderButton</Link>
+        </div>
+      </ProjectSection>
+
       <HeroSection {...thisWebsiteProps} />
       <Footer />
     </>
