@@ -32,13 +32,21 @@
 
 .hero-section a {
     float: right;
-    text-decoration: none;
     padding: 0 0 var(--underline-padding) 4em;
     border-bottom: var(--line-width-thin) solid var(--color-primary);
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 600;
 }
-
+  
+.hero-section a:hover {
+    color: var(--color-primary);
+    font-weight: 800;
+}
+  
 .hero-section a:visited {
     color: var(--color-primary);
+    font-weight: 600;
 }
 
 @media (max-width: 750px) {

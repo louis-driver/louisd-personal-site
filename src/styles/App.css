@@ -69,7 +69,12 @@
 }
 
 .smithsonian-link:hover {
+    color: black;
     font-style: italic;
+}
+
+.smithsonian-link:visited {
+    color: black;
 }
 
 @media only screen and (max-width: 700px) {
@@ -128,6 +133,10 @@
 
     /* allows interaction with the rest of the page despite it overlaying 100% of the page */
     pointer-events: none;
+}
+
+#wonderBtn:hover {
+    background-color: rgb(189, 189, 189);
 }
 
 #wonderBtn {

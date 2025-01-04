@@ -88,15 +88,11 @@ table {
   --line-width-thick: 3px;
 }
 
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     --background-color: #ffffff;
     --color-primary: #000000;
-  }
-  a:hover {
-    color: #747bff;
   }
   button {
     background-color: #f9f9f9;
