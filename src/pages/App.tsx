@@ -36,7 +36,7 @@ function App() {
             <h2>Smithsonian</h2>
             <h3>An exploration of typography</h3>
           </div>
-          <p>This project served to study typography’s importance in web design along with its capabilities for creating an interesting design without reliance on imagery.</p>
+          <p>This project served to study typography’s importance in web design along with its capabilities for creating an interesting design without reliance on imagery. While only a static HTML site styled with CSS, it aided in learning how to implement wireframed design files.</p>
           <Link to="/smithsonian" className="smithsonian-link">Check it Out!</Link>
         </div>
       </ProjectSection>

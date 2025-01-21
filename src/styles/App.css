@@ -48,6 +48,7 @@
 }
 
 .smithsonian-content p {
+    box-sizing: content-box;
     border-color: var(--smithsonian-primary);
     border-left: calc(15vw + 6vw) solid var(--smithsonian-primary);
     padding: 0 1em;
