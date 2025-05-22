@@ -1,4 +1,6 @@
 :root {
+    --societys-press-light: #D2CBB5;
+    --societys-press-dark: #323025;
     --smithsonian-background: #F6F1EA;
     --smithsonian-primary: #800039;
 }
@@ -15,7 +17,49 @@
 .bottom-transition {
     margin-bottom: -4px;
 }
-/* End ProjectSection */
+/* END ProjectSection */
+
+/* Society's Press */
+.societys-press {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--societys-press-light);
+    color: var(--societys-press-dark);
+}
+
+.societys-press-card {
+    margin: 4em 0;
+    width: clamp(300px, 90%, 800px)
+}
+
+.societys-press-card-title {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: clamp(22px, 3vw, 40px);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    -webkit-text-stroke: 0.75px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.exterior-border {
+    border-top: 2px solid var(--societys-press-dark);
+    border-bottom: 2px solid var(--societys-press-dark);
+    padding: 8px 20px;
+}
+
+.societys-press-card-content {
+    font-family: 'Newsreader', serif;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: justify;
+    border-top: 2px solid var(--societys-press-dark);
+    border-bottom: 2px solid var(--societys-press-dark);
+    padding: 0.5em;
+}
+
+/* END Society's Press */
 
 /* Smithsonian */
 .smithsonian {
@@ -101,7 +145,7 @@
         color: black;
     }
 }
-/* End Smithsonian */
+/* END Smithsonian */
 
 /* Wonder Button */
 .wonderbutton {
@@ -193,4 +237,4 @@
 .enable-animation .marquee-content {
     animation: scroll 10s linear infinite;
 }
-/* End Wonder Button */
+/* END Wonder Button */

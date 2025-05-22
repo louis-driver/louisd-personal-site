@@ -30,6 +30,17 @@ function App() {
       <HeroSection {...heroProps} />
       <Heading heading="Projects" />
 
+      <ProjectSection className='societys-press'>
+        <article className='societys-press-card'>
+          <h2 className='societys-press-card-title dynamic-title'>Society's Press: Designing a Digital Commons to Promote Critical Thought and Civil Discourse</h2>
+          <div className='exterior-border'>
+            <p className='societys-press-card-content'>
+              For my undergraduate thesis, I designed a system for a community-moderated publication platform. The concept to to be an alternative to Medium.com and Substack. The visual inspiration comes from traditional print media and the Enlightment.
+            </p>
+          </div>
+        </article>
+      </ProjectSection>
+
       <ProjectSection className="smithsonian">
         <div className="smithsonian-content">
           <div className="smithsonian-header">
