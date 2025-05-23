@@ -1,5 +1,5 @@
 :root {
-    --societys-press-light: #D2CBB5;
+    --societys-press-light: #efebdb;
     --societys-press-dark: #323025;
     --smithsonian-background: #F6F1EA;
     --smithsonian-primary: #800039;
@@ -12,6 +12,7 @@
 
 .top-transition, .bottom-transition {
     width: 100dvw;
+    z-index: 100;
 }
 
 .bottom-transition {
@@ -21,11 +22,25 @@
 
 /* Society's Press */
 .societys-press {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--societys-press-light);
     color: var(--societys-press-dark);
+}
+
+.textured-paper-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    mix-blend-mode: multiply;
+    background-repeat: repeat;
+    pointer-events: none;
+    background-image: url("/public/textured-paper.jpg");
+    opacity: 30%;
 }
 
 .societys-press-card {
@@ -57,6 +72,24 @@
     border-top: 2px solid var(--societys-press-dark);
     border-bottom: 2px solid var(--societys-press-dark);
     padding: 0.5em;
+}
+
+.societys-press-card-metadata {
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 0.5em;
+    font-family: 'Newsreader', serif;
+}
+
+.societys-press-link {
+    color: var(--societys-press-dark);
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.societys-press-link:hover {
+    letter-spacing: 0;
 }
 
 /* END Society's Press */

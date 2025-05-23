@@ -35,10 +35,14 @@ function App() {
           <h2 className='societys-press-card-title dynamic-title'>Society's Press: Designing a Digital Commons to Promote Critical Thought and Civil Discourse</h2>
           <div className='exterior-border'>
             <p className='societys-press-card-content'>
-              For my undergraduate thesis, I designed a system for a community-moderated publication platform. The concept to to be an alternative to Medium.com and Substack. The visual inspiration comes from traditional print media and the Enlightment.
+              For my undergraduate thesis, I designed a system for a community-moderated publication platform. The concept is to be an alternative to Medium and Substack. The visual inspiration comes from traditional print media and the Age of Enlightment.
             </p>
           </div>
+          <div className='societys-press-card-metadata'>
+            <span>5-12-2025</span> <Link to="/societys-press" className='societys-press-link'>Learn More</Link>
+          </div>
         </article>
+        <div className='textured-paper-overlay'></div>
       </ProjectSection>
 
       <ProjectSection className="smithsonian">

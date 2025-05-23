@@ -5,6 +5,7 @@ import Smithsonian from "../pages/Smithsonian";
 import LouisD from "../pages/LouisD";
 import MobileRouting from "../pages/MobileRouting";
 import WonderButton from "../pages/WonderButton";
+import SocietysPress from "../pages/SocietysPress";
 
 function Router() {
 
@@ -14,6 +15,7 @@ function Router() {
                 <Route path="/" element={<App />} />
                 <Route path="/mobileRouting" element={<MobileRouting />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/societys-press" element={<SocietysPress />} />
                 <Route path="/smithsonian" element={<Smithsonian />} />
                 <Route path="/wonderbutton" element={<WonderButton />} />,
                 <Route path="/louisd" element={<LouisD />} />
