@@ -6,6 +6,7 @@ function MobileRouting() {
         <main>
             <ul className="nav-links">
                 <li className="nav-link"><Link to={"/"}>Home</Link></li>
+                <li className="nav-link"><Link to={"/societys-press"}>Society's Press</Link></li>
                 <li className="nav-link"><Link to={"/smithsonian"}>Smithsonian</Link></li>
                 <li className="nav-link"><Link to={"/wonderbutton"}>WonderButton</Link></li>
                 <li className="nav-link"><Link to={"/louisd"}>This Website</Link></li>
