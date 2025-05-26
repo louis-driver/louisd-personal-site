@@ -42,7 +42,7 @@ function SocietysPress() {
         h3: "Promote quality, written content",
         paragraphs: [
             {id: 0, paragraph: "I'm not a writer, but I enjoy learning about a wide array of topics and reading high-quality content to do so."}
-            ,{id: 1, paragraph: "I believe that information should be free to access, as knowledge is fundamental to progressing society and upholding democratic institutions. At it's core, information is a non-rivalrous good, because sharing it does not diminish the owner's capacity to use it. Given my values and a perceived faults in the exisiting market, I sought to create an alternative."}
+            ,{id: 1, paragraph: "I believe that information should be free to access, as knowledge is fundamental to progressing society and upholding democratic institutions. At it's core, information is a non-rivalrous good, because sharing it does not diminish the owner's capacity to use it. Given my values and the perceived faults in the exisiting market, I sought to create an alternative."}
             ,{id: 2, paragraph: "My platform challenges the typical conception of how user-generated content should be published. We now expect instant feedback from our digital experiences, but just because we can allow instant publication, doesn't mean we should. By moderating content before publication, we can prevent the most egregious content (misinformation, hate speech, incivility) from ever being platformed in the first place."}
         ]
     }
@@ -53,17 +53,17 @@ function SocietysPress() {
         paragraphs: [
             {id: 0, paragraph: "To allow this moderation system to scale, a user must review three other posts before submitting theirs to the moderation system. Similarly, each post submitted must be reviewed by three other users. Within this review process, a series of checks and balances must be included to prevent exploitation by malicious actors. To prevent people from leaving low-effort critique, writers will be required to review the critique they've received before publishing their article (if it was deemed ready for publication by the reviewers)."}
             ,{id: 1, paragraph: "Due to the more restrictive nature of this moderation system, it's also important to frame the moderation requirements as a benefit to users, not an annoyance. Not only does pre-publication moderation prevent harmful content, it can be used to filter out low-quality content for readers, while also helping writers improve their work."}
-            ,{id: 3, paragraph: "To incentivize high-quality work, my platform proposes to monetize the work of an writer via deliberate choice from the end users, much like Substack. Counter to Substack, however, a user's subscription fee is simply divided among writers the user follows. This monetization model allows readers to support the authors they explicitly choose to, while not required the reader to pay $5, $10, or $20 for every single writer they value."}
+            ,{id: 3, paragraph: "To incentivize high-quality work, my platform proposes to monetize the work of an writer via deliberate choice from the end users, much like Substack. Counter to Substack, however, a user's subscription fee is simply divided among writers the user follows. This monetization model allows readers to support the authors they explicitly choose to, while not requiring the reader to pay $5, $10, or $20 for every single writer they value. Instead, a user can choose to subscribe to the platform at a rate that suits their personal capacity to pay."}
         ]
     }
 
     const visualDesignProps = {
         h2: "Visual Design",
         h3: "Aged traditional print media",
-        paragraphs: [{id: 0, paragraph: "The concept of this platform was inspired by the Enlightment. I imagined the bustling coffeehouses of 18th century England, that permitted anyone of any class to participate in civil discourse. I saw a newsboy running between coffeehouses, gripping a stack of newspapers, in order to share the latest news. "},
+        paragraphs: [{id: 0, paragraph: "The concept of this platform was inspired by the Enlightment. I imagined the bustling coffeehouses of 18th century England that permitted anyone, of any class, to participate in civil discourse. I saw a newsboy running between coffeehouses, gripping a stack of newspapers, in order to share the latest news. "},
             {id: 1, paragraph: "I envisioned the Parisian salons, full of intellectuals like Montesquieu, Voltaire, and Benjamin Franklin. These salons brought to mind imagery of the flamboyant ornamentation that characterized the Rococo era. Despite the exhuberant scenes brought to my mind, the boisterous conversations of a coffeehouse do not easily translate to the web as a medium. Neither does the flamboyant attire and architecture of the Rococo period."}
             ,{id: 2, paragraph: "Thus, I instead chose to emulate how text was shared in this time - through books, newspapers, and pamphlets. The design for the site is largely static, as something created with a printing press isn't interactive. However, I break from this design choice in specific scenarios that greatly increase user experience (e.g. pop-up confirmations, save buttons that stay visible on scroll, and dynamic forms)."}
-            ,{id: 3, paragraph: "Furthering the emulation of traditional print that references old books and newspapers, the background for the site utilizes the color and texture of an aged piece of paper. Additionally, the graphics used within the site ahve also been sourced directly from old printer's catalogs."}
+            ,{id: 3, paragraph: "Furthering the emulation of traditional print that references old books and newspapers, the background for the site utilizes the color and texture of an aged piece of paper. Additionally, the graphics used within the site have also been sourced directly from old printer's catalogs."}
         ]
     }
 
