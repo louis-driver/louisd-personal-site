@@ -32,7 +32,8 @@ function App() {
 
       <ProjectSection className='societys-press'>
         <article className='societys-press-card'>
-          <h2 className='societys-press-card-title dynamic-title'>Society's Press: Designing a Digital Commons to Promote Critical Thought and Civil Discourse</h2>
+          <h2 className='societys-press-card-title'>Society's Press:</h2>
+          <h2 className='societys-press-card-title dynamic-title'>Designing a Digital Commons to Promote Critical Thought and Civil Discourse</h2>
           <div className='exterior-border'>
             <p className='societys-press-card-content'>
               For my undergraduate thesis, I designed a system for a community-moderated publication platform. The concept is to be an alternative to Medium and Substack. The visual inspiration comes from traditional print media and the Age of Enlightment.

@@ -11,12 +11,19 @@
 }
 
 .top-transition, .bottom-transition {
-    width: 100dvw;
+    height: 100px;
+    background-repeat: repeat-x;
+    background-size: auto 100%; /* maintain height, scale width */
+    width: 100vw;
     z-index: 100;
 }
 
+.top-transition {
+    background-image: url('/TopTransition.svg');
+}
+
 .bottom-transition {
-    margin-bottom: -4px;
+    background-image: url('/BottomTransition.svg');
 }
 /* END ProjectSection */
 
